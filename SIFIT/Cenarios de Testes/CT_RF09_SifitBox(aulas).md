@@ -1,65 +1,10 @@
+## Cenário de teste: SifitBox (Aulas). (RF09)
 
-## Cenário de teste: Presenças. (RF08)
-
-### Caso de Teste 01: Consultar presenças por período.
-
-| ID | Descrição |
-| --- | --- |
-| **C08-CT01** | O sistema deve listar presenças no período. |
-
-| **Pré-condições** |
-| --- |
-| Devem existir presenças registradas. |
-
-| **Passos** |
-| --- |
-| **DADO** que o usuário acessa "Presenças" |
-| **E** preenche "De" e "Até" |
-| **QUANDO** clicar em "Buscar" |
-| **ENTÃO** devem ser listadas as presenças do período |
-
-| **Critérios de aceitação** |
-| --- |
-| As presenças devem estar dentro do período. |
-
-| **Evidência** |
-| --- |
-|  |
-
----
-
-### Caso de Teste 02: Consultar presenças de um cliente.
+### Caso de Teste 01: Consultar aulas por data.
 
 | ID | Descrição |
 | --- | --- |
-| **C08-CT02** | O sistema deve filtrar por cliente. |
-
-| **Pré-condições** |
-| --- |
-| O cliente deve ter presenças. |
-
-| **Passos** |
-| --- |
-| **DADO** que o usuário está em "Presenças" |
-| **E** digita o nome em "Buscar por cliente..." |
-| **QUANDO** clicar em "Buscar" |
-| **ENTÃO** devem aparecer apenas as presenças do cliente |
-
-| **Critérios de aceitação** |
-| --- |
-| O filtro por cliente deve funcionar. |
-
-| **Evidência** |
-| --- |
-|  |
-
----
-
-### Caso de Teste 03: Usar atalho "Esta semana".
-
-| ID | Descrição |
-| --- | --- |
-| **C08-CT03** | O atalho deve preencher o período. |
+| **C09-CT01** | O sistema deve listar as aulas da data. |
 
 | **Pré-condições** |
 | --- |
@@ -67,13 +12,14 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário está em "Presenças" |
-| **QUANDO** clicar em "Esta semana" |
-| **ENTÃO** devem ser listadas as presenças da semana atual |
+| **DADO** que o usuário acessa "SifitBox" |
+| **E** seleciona uma data |
+| **QUANDO** clicar em "Buscar" |
+| **ENTÃO** devem ser exibidas as aulas da data |
 
 | **Critérios de aceitação** |
 | --- |
-| O período deve corresponder à semana atual. |
+| As aulas devem pertencer à data selecionada. |
 
 | **Evidência** |
 | --- |
@@ -81,26 +27,51 @@
 
 ---
 
-### Caso de Teste 04: Período com data final menor que a inicial.
+### Caso de Teste 02: Gerar aulas.
 
 | ID | Descrição |
 | --- | --- |
-| **C08-CT04** | O sistema deve tratar período inválido. |
+| **C09-CT02** | O sistema deve gerar aulas das turmas recorrentes. |
 
 | **Pré-condições** |
 | --- |
-| O usuário deve estar logado no sistema. |
+| Deve existir turma recorrente ativa. |
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário está em "Presenças" |
-| **E** informa "Até" anterior a "De" |
-| **QUANDO** clicar em "Buscar" |
-| **ENTÃO** deve ser exibida mensagem de período inválido ou nenhum resultado |
+| **DADO** que o usuário está em "SifitBox - Aulas" |
+| **QUANDO** clicar em "Gerar aulas" |
+| **ENTÃO** as aulas devem ser criadas conforme as turmas |
 
 | **Critérios de aceitação** |
 | --- |
-| O sistema não deve apresentar erro. |
+| As aulas devem respeitar dias e horários. |
+
+| **Evidência** |
+| --- |
+|  |
+
+---
+
+### Caso de Teste 03: Gerar aulas sem turmas.
+
+| ID | Descrição |
+| --- | --- |
+| **C09-CT03** | O sistema deve informar quando não há turmas. |
+
+| **Pré-condições** |
+| --- |
+| Não deve existir turma recorrente ativa. |
+
+| **Passos** |
+| --- |
+| **DADO** que não há turmas recorrentes |
+| **QUANDO** clicar em "Gerar aulas" |
+| **ENTÃO** deve ser exibida mensagem informativa |
+
+| **Critérios de aceitação** |
+| --- |
+| Nenhuma aula deve ser gerada e não deve ocorrer erro. |
 
 | **Evidência** |
 | --- |
