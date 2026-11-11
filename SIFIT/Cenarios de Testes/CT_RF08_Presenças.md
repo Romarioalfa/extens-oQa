@@ -1,27 +1,25 @@
+## Cenário de teste: Presenças. (RF08)
 
-## Cenário de teste: Check-in. (RF07)
-
-### Caso de Teste 01: Check-in manual de cliente existente.
+### Caso de Teste 01: Consultar presenças por período.
 
 | ID | Descrição |
 | --- | --- |
-| **C07-CT01** | O sistema deve registrar a entrada manual. |
+| **C08-CT01** | O sistema deve listar presenças no período. |
 
 | **Pré-condições** |
 | --- |
-| Deve existir um cliente ativo. |
+| Devem existir presenças registradas. |
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário acessa "Check-in" |
-| **E** clica em "Check-in manual" e escolhe "Cliente existente" |
-| **E** seleciona o cliente |
-| **QUANDO** clicar em "Registrar entrada" |
-| **ENTÃO** o check-in deve aparecer na aba "Presentes agora" |
+| **DADO** que o usuário acessa "Presenças" |
+| **E** preenche "De" e "Até" |
+| **QUANDO** clicar em "Buscar" |
+| **ENTÃO** devem ser listadas as presenças do período |
 
 | **Critérios de aceitação** |
 | --- |
-| A entrada deve ser registrada com data, hora e unidade. |
+| As presenças devem estar dentro do período. |
 
 | **Evidência** |
 | --- |
@@ -29,27 +27,26 @@
 
 ---
 
-### Caso de Teste 02: Check-in de visitante / aula experimental.
+### Caso de Teste 02: Consultar presenças de um cliente.
 
 | ID | Descrição |
 | --- | --- |
-| **C07-CT02** | O sistema deve registrar visitantes. |
+| **C08-CT02** | O sistema deve filtrar por cliente. |
 
 | **Pré-condições** |
 | --- |
-| O usuário deve estar logado no sistema. |
+| O cliente deve ter presenças. |
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário abriu o "Check-in manual" |
-| **E** seleciona "Visitante / Aula experimental" |
-| **E** preenche os dados do visitante |
-| **QUANDO** clicar em "Registrar entrada" |
-| **ENTÃO** o visitante deve aparecer na lista |
+| **DADO** que o usuário está em "Presenças" |
+| **E** digita o nome em "Buscar por cliente..." |
+| **QUANDO** clicar em "Buscar" |
+| **ENTÃO** devem aparecer apenas as presenças do cliente |
 
 | **Critérios de aceitação** |
 | --- |
-| O visitante deve ser registrado. |
+| O filtro por cliente deve funcionar. |
 
 | **Evidência** |
 | --- |
@@ -57,11 +54,11 @@
 
 ---
 
-### Caso de Teste 03: Filtrar check-ins por situação.
+### Caso de Teste 03: Usar atalho "Esta semana".
 
 | ID | Descrição |
 | --- | --- |
-| **C07-CT03** | As abas devem filtrar a lista. |
+| **C08-CT03** | O atalho deve preencher o período. |
 
 | **Pré-condições** |
 | --- |
@@ -69,13 +66,13 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário está em "Check-in" |
-| **QUANDO** clicar na aba "Não compareceram" |
-| **ENTÃO** devem ser listados apenas os alunos que não compareceram |
+| **DADO** que o usuário está em "Presenças" |
+| **QUANDO** clicar em "Esta semana" |
+| **ENTÃO** devem ser listadas as presenças da semana atual |
 
 | **Critérios de aceitação** |
 | --- |
-| A lista deve respeitar a aba selecionada. |
+| O período deve corresponder à semana atual. |
 
 | **Evidência** |
 | --- |
@@ -83,11 +80,11 @@
 
 ---
 
-### Caso de Teste 04: Buscar check-in por nome.
+### Caso de Teste 04: Período com data final menor que a inicial.
 
 | ID | Descrição |
 | --- | --- |
-| **C07-CT04** | A busca deve filtrar os registros. |
+| **C08-CT04** | O sistema deve tratar período inválido. |
 
 | **Pré-condições** |
 | --- |
@@ -95,13 +92,14 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário está em "Check-in" |
-| **QUANDO** digitar um nome em "Buscar por nome, código ou plano..." |
-| **ENTÃO** devem ser exibidos apenas os registros do aluno |
+| **DADO** que o usuário está em "Presenças" |
+| **E** informa "Até" anterior a "De" |
+| **QUANDO** clicar em "Buscar" |
+| **ENTÃO** deve ser exibida mensagem de período inválido ou nenhum resultado |
 
 | **Critérios de aceitação** |
 | --- |
-| A busca deve funcionar corretamente. |
+| O sistema não deve apresentar erro. |
 
 | **Evidência** |
 | --- |
