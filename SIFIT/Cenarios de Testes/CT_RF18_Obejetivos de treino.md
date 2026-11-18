@@ -1,4 +1,3 @@
-
 ## Cenário de teste: Objetivos de Treino. (RF18)
 
 ### Caso de Teste 01: Cadastrar objetivo.
@@ -42,8 +41,8 @@
 | --- |
 | **DADO** que o usuário clica em "Novo Objetivo" |
 | **E** deixa o nome em branco |
-| **QUANDO** salvar |
-| **ENTÃO** deve ser exibida validação |
+| **QUANDO** clicar em "Salvar" |
+| **ENTÃO** deve ser exibida mensagem informando que o nome é obrigatório |
 
 | **Critérios de aceitação** |
 | --- |
