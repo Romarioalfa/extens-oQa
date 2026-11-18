@@ -66,7 +66,7 @@
 | --- |
 | **DADO** que o menu do usuário está aberto |
 | **QUANDO** clicar em "Segurança" |
-| **ENTÃO** deve ser exibida a tela de alteração de senha e preferências de segurança |
+| **ENTÃO** deve ser exibida a tela de alteração de senha do usuário |
 
 | **Critérios de aceitação** |
 | --- |
