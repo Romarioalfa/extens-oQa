@@ -1,4 +1,3 @@
-
 ## Cenário de teste: Grupos. (RF19)
 
 ### Caso de Teste 01: Cadastrar grupo.
@@ -43,7 +42,7 @@
 | **DADO** que o usuário está em "Novo Grupo" |
 | **E** deixa o nome em branco |
 | **QUANDO** clicar em "Salvar Grupo" |
-| **ENTÃO** deve ser exibida validação |
+| **ENTÃO** deve ser exibida a mensagem "Preencha este campo." |
 
 | **Critérios de aceitação** |
 | --- |
