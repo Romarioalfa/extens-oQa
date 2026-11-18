@@ -1,4 +1,3 @@
-
 ## Cenário de teste: Avaliações Físicas. (RF12)
 
 ### Caso de Teste 01: Cadastrar avaliação.
@@ -59,7 +58,7 @@
 
 | ID | Descrição |
 | --- | --- |
-| **C12-CT03** | O sistema deve salvar as medidas e calcular a composição. |
+| **C12-CT03** | O sistema deve salvar as medidas e o teste físico. |
 
 | **Pré-condições** |
 | --- |
@@ -68,13 +67,13 @@
 | **Passos** |
 | --- |
 | **DADO** que o usuário está fazendo a avaliação |
-| **E** preenche medidas nas abas Circunferência e Subcutâneas |
+| **E** preenche medidas nas abas "Circunferência", "Teste Físico" e "Composição Corporal" |
 | **QUANDO** salvar |
-| **ENTÃO** % de gordura, massa magra e peso ideal devem ser calculados |
+| **ENTÃO** as medidas devem ser salvas na avaliação |
 
 | **Critérios de aceitação** |
 | --- |
-| As medidas e os cálculos devem ser salvos. |
+| As medidas devem aparecer ao visualizar a avaliação. |
 
 | **Evidência** |
 | --- |
