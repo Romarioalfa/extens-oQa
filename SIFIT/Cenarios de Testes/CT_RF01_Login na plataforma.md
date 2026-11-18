@@ -20,7 +20,7 @@
 
 | **Critérios de aceitação** |
 | --- |
-| O redirecionamento para a Página Inicial ("Boa tarde, Jair!") deve ocorrer corretamente. |
+| O redirecionamento para a Página Inicial deve ocorrer, com a saudação "Boa tarde, Jair!" ou "Boa noite, Jair!" conforme o horário. |
 
 | **Evidência** |
 | --- |
