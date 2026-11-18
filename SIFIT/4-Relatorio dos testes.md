@@ -2,7 +2,7 @@
 
 **Sistema testado:** SIFIT - Sistema para Academias
 **Responsável:** Romário Rodrigues RA 14555
-**Data de execução:** 17/11/2026
+**Data de execução:** 17/11/2026 e 18/11/2026
 **Ambiente:** https://sifit.centrion.com.br
 
 * Sistema operacional: Windows
@@ -15,9 +15,9 @@
 
 | Total de Casos de Teste | Casos Passaram | Casos Falharam | Casos Inconclusivos | Bugs Registrados |
 | ----------------------- | -------------- | -------------- | ------------------- | ---------------- |
-| 9                       | 6              | 2              | 1                   | 3                |
+| 20                      | 14             | 3              | 3                   | 5                |
 
-> Foram executados os casos C01-CT01, C04-CT01 a C04-CT04, C07-CT03, C10-CT03, C14-CT04 e C28-CT04. O C07-CT03 ficou inconclusivo porque o ambiente não tinha registros de check-in para filtrar. Nos módulos RF07, RF10, RF11, RF13, RF14, RF23 e RF28, os casos que cadastram, alteram, excluem ou imprimem registros não foram executados, para não alterar dados do ambiente compartilhado da turma. Os demais cenários da pasta `Cenarios de Testes` ainda não foram executados.
+> Foram executados, em 17/11, os casos C01-CT01, C04-CT01 a C04-CT04, C07-CT03, C10-CT03, C14-CT04 e C28-CT04 e, em 18/11, os casos C39-CT03, C41-CT01, C41-CT02, C44-CT01 a C44-CT04, C45-CT01, C46-CT03, C47-CT01 e C47-CT03. Ficaram inconclusivos o C07-CT03 (sem registros de check-in para filtrar), o C46-CT03 (nenhum modelo de ficha cadastrado para buscar) e o C47-CT03 (nenhuma postagem cadastrada para filtrar). O C41-CT02 falhou (BUG-004). Os casos desta tabela não incluem os vídeos gravados pelos demais integrantes do grupo. Nos módulos RF07, RF10, RF11, RF13, RF14, RF23 e RF28, os casos que cadastram, alteram, excluem ou imprimem registros não foram executados, para não alterar dados do ambiente compartilhado da turma. Os demais cenários da pasta `Cenarios de Testes` ainda não foram executados.
 
 ---
 
@@ -63,15 +63,15 @@
 | RF36 | Atividades | 0 | 0 | 0 | - |
 | RF37 | Pontuação | 0 | 0 | 0 | - |
 | RF38 | Produtos | 0 | 0 | 0 | - |
-| RF39 | Enquetes | 0 | 0 | 0 | - |
+| RF39 | Enquetes | 1 | 1 | 0 | - |
 | RF40 | Fichas de Anamnese | 0 | 0 | 0 | - |
-| RF41 | Modelos de Anamnese | 0 | 0 | 0 | - |
+| RF41 | Modelos de Anamnese | 2 | 1 | 1 | BUG-004 |
 | RF42 | Categorias de Anamnese | 0 | 0 | 0 | - |
 | RF43 | Perguntas de Anamnese | 0 | 0 | 0 | - |
-| RF44 | Inteligência e Automação | 0 | 0 | 0 | - |
-| RF45 | Configurações | 0 | 0 | 0 | - |
-| RF46 | Modelo de Ficha | 0 | 0 | 0 | - |
-| RF47 | Aplicativo | 0 | 0 | 0 | - |
+| RF44 | Inteligência e Automação | 4 | 4 | 0 | - |
+| RF45 | Configurações | 1 | 1 | 1 | BUG-005 (achado em teste exploratório) |
+| RF46 | Modelo de Ficha | 1 | 0 | 0 | - (C46-CT03 inconclusivo: sem modelos cadastrados) |
+| RF47 | Aplicativo | 2 | 1 | 0 | - (C47-CT03 inconclusivo: sem postagens) |
 
 ---
 
@@ -82,6 +82,8 @@
 | BUG-001 | Filtros Status, Situação, Plano e Personal não alteram a lista de clientes | Alta       | Aberto |
 | BUG-002 | Gráfico "Por Dia da Semana" da Página Inicial aparece vazio               | Média      | Aberto |
 | BUG-003 | Card "Falar com 17 inativos" abre modal com 0 inativos                     | Média      | Aberto |
+| BUG-004 | Preview do Modelo de Anamnese informa "Nenhuma pergunta adicionada ainda" mesmo com pergunta cadastrada | Média | Aberto |
+| BUG-005 | Campo "Senha" da aba Biometria (Configurações) exibe a senha em texto puro | Média | Aberto |
 
 ---
 
@@ -89,14 +91,14 @@
 
 **Casos por status:**
 
-* ✅ Passaram: 6
-* ❌ Falharam: 2
-* ❔ Inconclusivo: 1
+* ✅ Passaram: 14
+* ❌ Falharam: 3
+* ❔ Inconclusivo: 3
 
 **Severidade dos bugs:**
 
 * 🟥 Alta: 1
-* 🟨 Média: 2
+* 🟨 Média: 4
 * 🟩 Baixa: 0
 
 ---

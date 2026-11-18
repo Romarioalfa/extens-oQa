@@ -23,7 +23,8 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF47-CT01_modal_notificacao_vazio](../Evidencias/RF47-CT01_modal_notificacao_vazio.png) |
+| ![RF47-CT01_previa_celular](../Evidencias/RF47-CT01_previa_celular.png) |
 
 ---
 
@@ -76,7 +77,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF47-CT03_so_pendentes_sem_postagens](../Evidencias/RF47-CT03_so_pendentes_sem_postagens.png) |
 
 ---
 

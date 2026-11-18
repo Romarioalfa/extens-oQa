@@ -24,7 +24,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF44-CT01_central_automacoes](../Evidencias/RF44-CT01_central_automacoes.png) |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF44-CT02_configurar_automacao](../Evidencias/RF44-CT02_configurar_automacao.png) |
 
 ---
 
@@ -76,7 +76,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF44-CT03_resultados_ia_7_dias](../Evidencias/RF44-CT03_resultados_ia_7_dias.png) |
 
 ---
 
@@ -102,4 +102,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF44-CT04_resultados_ia_30_dias](../Evidencias/RF44-CT04_resultados_ia_30_dias.png) |

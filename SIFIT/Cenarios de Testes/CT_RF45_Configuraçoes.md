@@ -22,7 +22,8 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF45-CT01_aba_home](../Evidencias/RF45-CT01_aba_home.png) |
+| ![RF45-CT01_aba_design](../Evidencias/RF45-CT01_aba_design.png) |
 
 ---
 

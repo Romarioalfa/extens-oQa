@@ -4,7 +4,7 @@
 
 **QA responsável:** Romário Rodrigues RA 14555
 
-**Data:** 17.11.26
+**Data:** 17.11.26 (atualizado em 18.11.26)
 
 ---
 
@@ -123,3 +123,84 @@
 | :-------------------------------------------: |
 | ![BUG-003](Evidencias/BUG-003_card_17_inativos.png) |
 | ![BUG-003](Evidencias/BUG-003_modal_0_inativos.png) |
+
+
+---
+
+### 🐞 **Bug 04: Preview do modelo de anamnese diz que não há perguntas, mas o modelo tem pergunta cadastrada**
+
+| **ID**     | **Descrição** |
+| ---------- | ------------- |
+| BUG-004    | Na tela Modelos de Anamnese, os cards "Modelo Hendreu" e "Modelo Demonstracao Manual Sifit" indicam "1 perguntas". Ao clicar em "Preview", o modal exibe "Nenhuma pergunta adicionada ainda." Ao abrir "Editar" do mesmo modelo, a pergunta "quais tipos" aparece em "Modelo atual", e o resumo mostra Perguntas = 1. |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Média         |           Média            |   Aberto   |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1. Fazer login e acessar Saúde > Modelos de Anamnese |
+| 2. Observar que os dois modelos listados indicam "1 perguntas" |
+| 3. Clicar em "Preview" em cada modelo |
+| 4. Observar o conteúdo do modal de preview |
+| 5. Clicar em "Editar" no Modelo Hendreu e conferir a lista "Modelo atual" |
+| 6. Clicar em "Cancelar" sem salvar |
+
+|                  **Comportamento Esperado**                  |                           **Comportamento Obtido**                           |
+| :----------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| O preview deve exibir as perguntas do modelo (critério do caso C41-CT02: "Todas as perguntas devem aparecer"). | O preview exibe "Nenhuma pergunta adicionada ainda." nos dois modelos, embora os cards indiquem 1 pergunta e o editor do Modelo Hendreu mostre essa pergunta. |
+
+| **Ambiente** |
+| ------------------------ |
+| Ambiente: https://sifit.centrion.com.br |
+| Desktop com Windows. |
+| Chrome 157 |
+| SIFIT - Sistema para Academias |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+| RF41 - Modelos de Anamnese | C41-CT02: Pré-visualizar modelo |
+
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+| ![BUG-004](Evidencias/RF42-CT02_preview_modelo_hendreu_vazio.png) |
+| ![BUG-004](Evidencias/RF42-CT02_preview_modelo_demonstracao_vazio.png) |
+| ![BUG-004](Evidencias/RF42-CT02_editor_modelo_com_1_pergunta.png) |
+
+---
+
+### 🐞 **Bug 05: Campo "Senha" da aba Biometria exibe a senha em texto puro**
+
+| **ID**     | **Descrição** |
+| ---------- | ------------- |
+| BUG-005    | Em Configurações > Biometria, o campo "Senha" vem preenchido e exibe o valor digitado em texto legível. Pela inspeção da página, o campo é do tipo "text" e não "password", então qualquer pessoa que veja a tela lê a senha do aparelho biométrico. |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Média         |           Média            |   Aberto   |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1. Fazer login e acessar Configurações |
+| 2. Clicar na aba "Biometria" |
+| 3. Observar o campo "Senha" |
+| 4. Não clicar em "Salvar Configurações" |
+
+|                  **Comportamento Esperado**                  |                           **Comportamento Obtido**                           |
+| :----------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| O campo de senha deve ser mascarado (tipo "password"). | O campo é do tipo "text" e mostra o valor da senha em texto legível. |
+
+| **Ambiente** |
+| ------------------------ |
+| Ambiente: https://sifit.centrion.com.br |
+| Desktop com Windows. |
+| Chrome 157 |
+| SIFIT - Sistema para Academias |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+| RF45 - Configurações (aba Biometria) | Sem caso específico (achado em teste exploratório) |
+
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+| ![BUG-005](Evidencias/BUG-005_senha_biometria_texto_puro.png) |
