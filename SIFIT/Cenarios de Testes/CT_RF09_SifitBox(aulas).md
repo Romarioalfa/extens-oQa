@@ -12,7 +12,7 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário acessa "SifitBox" |
+| **DADO** que o usuário acessa o endereço sifit.centrion.com.br/sifitbox/aulas (a tela não aparece no menu) |
 | **E** seleciona uma data |
 | **QUANDO** clicar em "Buscar" |
 | **ENTÃO** devem ser exibidas as aulas da data |
