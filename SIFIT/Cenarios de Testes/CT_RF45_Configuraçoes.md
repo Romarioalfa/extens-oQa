@@ -1,6 +1,3 @@
-
-
-
 ## Cenário de teste: Configurações. (RF45)
 
 ### Caso de Teste 01: Navegar pelas abas.
@@ -63,7 +60,7 @@
 
 | **Pré-condições** |
 | --- |
-| O usuário deve estar logado no sistema. |
+| A opção "Cobrar multa por atraso?" deve estar marcada como "Sim" (o campo de multa só aparece assim). |
 
 | **Passos** |
 | --- |
