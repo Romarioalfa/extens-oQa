@@ -52,7 +52,7 @@
 
 | **Evidência** |
 | --- |
-| [Vídeo]() |
+| [Vídeo](https://jam.dev/c/b1632a1c-f5ed-4767-8c8d-d168c6bc9bd6) |
 
 ---
 
@@ -78,8 +78,8 @@
 
 | **Evidência** |
 | --- |
-| [Vídeo]() |
-| ![RF07-CT03](../Evidencias/RF07-CT03_nao_compareceram_sem_dados.png) |
+| [Vídeo](https://jam.dev/c/8c82f058-770d-4472-9f83-56d626ac42ea) |
+
 
 ---
 
@@ -105,4 +105,4 @@
 
 | **Evidência** |
 | --- |
-|[Vídeo]()  |
+|[Vídeo](https://jam.dev/c/cf881b65-05b3-471a-a161-4269931e8589)  |
