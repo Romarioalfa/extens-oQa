@@ -1,4 +1,3 @@
-
 ## Cenário de teste: Categorias Crossfit. (RF21)
 
 ### Caso de Teste 01: Cadastrar categoria.
@@ -13,8 +12,8 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário clica em "Nova Categoria" |
-| **E** preenche o nome |
+| **DADO** que o usuário acessa o endereço sifit.centrion.com.br/categorias-exercicios-crossfit (a tela não aparece no menu) |
+| **E** clica em "Nova Categoria" e preenche o nome |
 | **QUANDO** clicar em "Salvar" |
 | **ENTÃO** a categoria deve aparecer com data de criação |
 
