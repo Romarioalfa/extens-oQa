@@ -1,14 +1,11 @@
 
 
-
-
-
-
 ## Cenário de teste: Produtos. (RF38)
 
 ### Caso de Teste 01: Cadastrar produto.
 
 | ID | Descrição |
+
 | --- | --- |
 | **C38-CT01** | O sistema deve cadastrar o produto. |
 
@@ -33,11 +30,11 @@
 
 ---
 
-### Caso de Teste 02: Produto sem preço.
+### Caso de Teste 02: Cadastrar produto em branco.
 
 | ID | Descrição |
 | --- | --- |
-| **C38-CT02** | O sistema deve exigir o valor. |
+| **C38-CT02** | O sistema não deve salvar produto sem dados. |
 
 | **Pré-condições** |
 | --- |
@@ -45,14 +42,15 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário está em "Novo" |
-| **E** deixa o preço em branco |
-| **QUANDO** salvar |
-| **ENTÃO** deve ser exibida validação |
+| **DADO** que o usuário clica em "Novo" |
+| **E** deixa todos os campos em branco |
+| **QUANDO** clicar em "Salvar" |
+
+| **ENTÃO** deve ser exibida mensagem de campo obrigatório |
 
 | **Critérios de aceitação** |
 | --- |
-| O produto não deve ser salvo. |
+| Nenhum produto vazio deve ser criado na lista. |
 
 | **Evidência** |
 | --- |
