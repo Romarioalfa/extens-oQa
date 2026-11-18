@@ -1,7 +1,3 @@
-
-
-
-
 ## Cenário de teste: Atividades. (RF36)
 
 ### Caso de Teste 01: Cadastrar atividade.
@@ -31,11 +27,11 @@
 
 ---
 
-### Caso de Teste 02: Pontuação negativa.
+### Caso de Teste 02: Cadastrar atividade sem nome.
 
 | ID | Descrição |
 | --- | --- |
-| **C36-CT02** | O sistema deve recusar pontuação negativa. |
+| **C36-CT02** | O sistema não deve salvar atividade sem nome. |
 
 | **Pré-condições** |
 | --- |
@@ -43,14 +39,14 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário está cadastrando atividade |
-| **E** preenche Pontuação -5 |
-| **QUANDO** salvar |
-| **ENTÃO** deve ser exibida validação |
+| **DADO** que o usuário clica em "Nova Atividade" |
+| **E** deixa todos os campos em branco |
+| **QUANDO** clicar em "Salvar" |
+| **ENTÃO** deve ser exibida mensagem de campo obrigatório |
 
 | **Critérios de aceitação** |
 | --- |
-| A atividade não deve ser salva. |
+| Nenhuma atividade vazia deve ser criada na lista. |
 
 | **Evidência** |
 | --- |
