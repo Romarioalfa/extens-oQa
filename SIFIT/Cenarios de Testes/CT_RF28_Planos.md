@@ -103,4 +103,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF28-CT04](../Evidencias/RF28-CT04_ranking_planos.png) |

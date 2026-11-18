@@ -77,7 +77,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF10-CT03](../Evidencias/RF10-CT03_busca_por_nome.png) |
 
 ---
 
