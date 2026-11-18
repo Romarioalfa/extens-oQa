@@ -24,7 +24,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/2ae38cdd-22fa-4b1e-b12a-04c9f4131462) |
 
 ---
 
@@ -52,7 +52,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+|    [Vídeo](https://jam.dev/c/9c1543f4-cad6-4175-861d-3552bcb1c2cf)|
 
 ---
 
@@ -80,7 +80,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+|  [Vídeo]( https://jam.dev/c/b67d44ff-3f86-4b52-943d-1cadfabacfa4)|
 
 ---
 
@@ -99,8 +99,7 @@
 | **DADO** que estamos na página de login |
 | **E** marcamos a opção "Manter conectado" |
 | **E** realizamos o login com credenciais válidas |
-| **QUANDO** fecharmos e reabrirmos o navegador no endereço do SIFIT |
-| **ENTÃO** o usuário deve continuar logado |
+| **QUANDO** fecharmos e reabrirmos o navegador no endereço sifit.centrion.com.br/dashboard |
 
 | **Critérios de aceitação** |
 | --- |
@@ -108,7 +107,8 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo]( https://jam.dev/c/268295ae-b8da-4327-bd61-01d25cabd086) |
+| [Vídeo](https://jam.dev/c/f580722a-8700-4d49-9c4b-4fabdc48e873 ) |
 
 ---
 
@@ -134,4 +134,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+|  [Vídeo](https://jam.dev/c/f58c02bc-c481-41c3-b5df-154a9b4307bd )|
