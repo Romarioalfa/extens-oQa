@@ -1,4 +1,3 @@
-
 ## Cenário de teste: Check-in. (RF07)
 
 ### Caso de Teste 01: Check-in manual de cliente existente.
@@ -13,7 +12,7 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário acessa "Check-in" |
+| **DADO** que o usuário acessa o endereço sifit.centrion.com.br/checkin (a tela não aparece no menu) |
 | **E** clica em "Check-in manual" e escolhe "Cliente existente" |
 | **E** seleciona o cliente |
 | **QUANDO** clicar em "Registrar entrada" |
