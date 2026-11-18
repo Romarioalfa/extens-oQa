@@ -1,6 +1,3 @@
-
-
-
 ## Cenário de teste: Despesas Fixas. (RF25)
 
 ### Caso de Teste 01: Cadastrar despesa fixa.
@@ -44,8 +41,8 @@
 | --- |
 | **DADO** que o usuário está em "Nova Despesa" |
 | **E** deixa o valor em branco |
-| **QUANDO** salvar |
-| **ENTÃO** deve ser exibida validação |
+| **QUANDO** clicar em "Salvar Despesa" |
+| **ENTÃO** deve ser exibida a mensagem "Preencha este campo." |
 
 | **Critérios de aceitação** |
 | --- |
