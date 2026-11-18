@@ -1,5 +1,3 @@
-
-
 ## Cenário de teste: Box - Turmas. (RF22)
 
 ### Caso de Teste 01: Cadastrar modalidade.
@@ -14,7 +12,7 @@
 
 | **Passos** |
 | --- |
-| **DADO** que o usuário acessa "Box - Turmas" |
+| **DADO** que o usuário acessa o endereço sifit.centrion.com.br/sifitbox/turmas (a tela não aparece no menu) |
 | **E** clica em "Modalidade" e preenche o nome |
 | **QUANDO** salvar |
 | **ENTÃO** a modalidade deve aparecer em "Modalidades" |
