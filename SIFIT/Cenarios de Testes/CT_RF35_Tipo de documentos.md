@@ -1,4 +1,3 @@
-
 ## Cenário de teste: Tipos de Documentos. (RF35)
 
 ### Caso de Teste 01: Cadastrar tipo de documento.
@@ -42,8 +41,8 @@
 | --- |
 | **DADO** que o usuário está em "Novo Tipo" |
 | **E** deixa o nome em branco |
-| **QUANDO** salvar |
-| **ENTÃO** deve ser exibida validação |
+| **QUANDO** clicar em "Salvar" |
+| **ENTÃO** deve ser exibido o aviso "Informe o nome do tipo de documento." |
 
 | **Critérios de aceitação** |
 | --- |
