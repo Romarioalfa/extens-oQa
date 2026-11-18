@@ -105,4 +105,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+| ![RF14-CT04](../Evidencias/RF14-CT04_filtro_pendente_sem_resultados.png)<br>![RF14-CT04](../Evidencias/RF14-CT04_filtro_pago_2_contas.png) |

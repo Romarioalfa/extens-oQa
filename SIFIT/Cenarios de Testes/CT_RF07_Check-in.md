@@ -79,6 +79,7 @@
 | **Evidência** |
 | --- |
 | [Vídeo]() |
+| ![RF07-CT03](../Evidencias/RF07-CT03_nao_compareceram_sem_dados.png) |
 
 ---
 
