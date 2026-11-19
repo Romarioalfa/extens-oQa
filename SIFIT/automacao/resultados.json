@@ -1,0 +1,313 @@
+{
+  "C27-CT01": {
+    "status": "passou",
+    "obs": "Lead \"QA14555 Lead\" aparece na lista. Resposta: nenhuma",
+    "link": "https://jam.dev/c/bc42bc2d-ec8a-40d5-aca8-ac712421a689",
+    "seco": false,
+    "quando": "2026-11-19T19:08:08.222Z"
+  },
+  "C27-CT02": {
+    "status": "passou",
+    "obs": "Validacao exibida: (validacao nativa) Insira uma parte depois de \"@\". \"teste@\" está incompleto.. Lead com e-mail \"teste@\" nao foi salvo.",
+    "link": "https://jam.dev/c/fb6125db-a9a4-46a7-991e-138e1d4eda4b",
+    "seco": false,
+    "quando": "2026-11-19T19:11:10.225Z"
+  },
+  "C27-CT03": {
+    "status": "passou",
+    "obs": "Filtro Estagio=Proposta retornou 3 lead(s), todos em Proposta.",
+    "link": "https://jam.dev/c/5e1858ac-cb6d-4458-9e33-89dbd4406ae5",
+    "seco": false,
+    "quando": "2026-11-19T19:09:33.778Z"
+  },
+  "C27-CT04": {
+    "status": "passou",
+    "obs": "Registro removido da lista. Dialogos: [] Deseja deletar este lead? (confirm)",
+    "link": "https://jam.dev/c/0df181a0-027f-4bd0-9eca-6a6eafd8f3e8",
+    "seco": false,
+    "quando": "2026-11-19T19:10:08.470Z"
+  },
+  "C31-CT01": {
+    "status": "falhou",
+    "obs": "Bandeira nao apareceu na lista apos salvar. Resposta: nenhuma | Requisicoes: POST cria/bandeira/1 201 {\"verifica_erro\":false,\"id\":44}; POST bandeiras/1 200 []",
+    "link": "https://jam.dev/c/60e6cba7-e3fd-42e9-a219-43aa8ab7d27d",
+    "seco": false,
+    "quando": "2026-11-19T19:15:10.862Z"
+  },
+  "C31-CT02": {
+    "status": "falhou",
+    "obs": "Linhas de parcela: 0 -> 1 (campo de taxa preenchido: sim). Bandeira NAO apareceu na lista. Resposta: nenhuma",
+    "link": "https://jam.dev/c/d15e6a4b-5b87-4c71-90ba-0f1e75eac44e",
+    "seco": false,
+    "quando": "2026-11-19T19:15:54.745Z"
+  },
+  "C31-CT03": {
+    "status": "passou",
+    "obs": "Validacao exibida: [Aviso] Informe o nome da bandeira.. Bandeira sem nome nao foi salvo.",
+    "link": "https://jam.dev/c/be8f4531-dd90-4206-9865-7729854ac4b7",
+    "seco": false,
+    "quando": "2026-11-19T19:16:17.658Z"
+  },
+  "C30-CT01": {
+    "status": "passou",
+    "obs": "Tipo de pagamento \"QA14555 Tipo Pgto\" aparece na lista. Resposta: nenhuma O formulario nao tem campo \"Status\" (a documentacao cita Nome, Status e Tipo).",
+    "link": "https://jam.dev/c/92080a74-ef33-434b-a277-7ad7e9e90088",
+    "seco": false,
+    "quando": "2026-11-19T19:12:06.104Z"
+  },
+  "C30-CT02": {
+    "status": "falhou",
+    "obs": "Com \"Escolher Bandeira = Sim\" o formulario continua com 3 selects e 0 botao(oes) de bandeira: nao ha como escolher qual bandeira vincular. Tipo salvo (\"28 QA14555 Pgto Vinculo Crédito Não\"). Resposta: nenhuma A documentacao espera escolher a bandeira e salvar o vinculo.",
+    "link": "https://jam.dev/c/8b4ac80b-ba19-4ca0-8af6-51493fcb18c6",
+    "seco": false,
+    "quando": "2026-11-19T19:13:02.225Z"
+  },
+  "C30-CT03": {
+    "status": "passou",
+    "obs": "Registro removido da lista. Dialogos: [] Deseja deletar o Tipo de Pagamento? (confirm)",
+    "link": "https://jam.dev/c/2d83a899-e90e-483a-b59b-d6ddcacbd0a8",
+    "seco": false,
+    "quando": "2026-11-19T19:13:53.576Z"
+  },
+  "C35-CT01": {
+    "status": "passou",
+    "obs": "Tipo de documento \"QA14555 Tipo Doc\" aparece na lista. Resposta: nenhuma",
+    "link": "https://jam.dev/c/796e71f5-43b0-4e35-bfff-896b331a8db5",
+    "seco": false,
+    "quando": "2026-11-19T19:20:37.135Z"
+  },
+  "C35-CT02": {
+    "status": "passou",
+    "obs": "Validacao exibida: [Aviso] Informe o nome do tipo de documento.. Tipo de documento sem nome nao foi salvo.",
+    "link": "https://jam.dev/c/fe76a00b-7c69-4880-985a-f5bd3f8bc89d",
+    "seco": false,
+    "quando": "2026-11-19T19:21:10.437Z"
+  },
+  "C35-CT03": {
+    "status": "passou",
+    "obs": "Registro removido da lista. Dialogos: [] Deseja deletar o Tipo de Documento? (confirm)",
+    "link": "https://jam.dev/c/0f6db349-ca5e-4c3c-9fcc-a2dc4b2e291c",
+    "seco": false,
+    "quando": "2026-11-19T19:21:45.144Z"
+  },
+  "C36-CT01": {
+    "status": "passou",
+    "obs": "Atividade \"QA14555 Atividade\" aparece na lista. Resposta: nenhuma",
+    "link": "https://jam.dev/c/a6821e1e-2c01-4b1e-bf5f-5110df4fa4ed",
+    "seco": false,
+    "quando": "2026-11-19T19:22:36.959Z"
+  },
+  "C36-CT02": {
+    "status": "falhou",
+    "obs": "Atividade vazia FOI salvo sem o campo obrigatorio. Resposta: nenhuma",
+    "link": "https://jam.dev/c/872acaba-9165-47cd-92f9-d5a1b5c35521",
+    "seco": false,
+    "quando": "2026-11-19T19:23:03.290Z"
+  },
+  "C36-CT03": {
+    "status": "passou",
+    "obs": "Registro removido da lista. Dialogo de confirmacao: Deseja deletar a Atividade? (confirm)",
+    "link": null,
+    "rascunho": true,
+    "seco": false,
+    "quando": "2026-11-19T19:25:10.756Z"
+  },
+  "C38-CT01": {
+    "status": "falhou",
+    "obs": "Produto \"QA14555 Produto\" apareceu na lista, mas o sistema mostrou erro ao salvar. Resposta: [Erro] Erro ao salvar produto (error) | API: 400 criar-produto/1: Erro ao Cadastrar Linha: \"11 QA14555 Produto Excluir Venda R$ 25 Ativo\"",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:21:18.088Z"
+  },
+  "C38-CT02": {
+    "status": "passou",
+    "obs": "Validacao exibida: [Erro] Erro ao salvar produto. Produto vazio nao foi salvo. (a documentacao espera: campo obrigatorio)",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:21:25.337Z"
+  },
+  "C38-CT03": {
+    "status": "passou",
+    "obs": "Registro removido da lista. Dialogos: [] Deseja deletar o produto? (confirm)",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:21:38.961Z"
+  },
+  "C39-CT01": {
+    "status": "falhou",
+    "obs": "Enquete \"QA14555 Enquete\" apareceu na lista, mas o sistema mostrou erro ao salvar. Resposta: [Erro] Erro ao salvar enquete (error) Linha: \"37 QA14555 Enquete Sem pergunta cadastrada Ativo\"",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:22:05.657Z"
+  },
+  "C39-CT02": {
+    "status": "falhou",
+    "obs": "Enquete sem respostas FOI salvo sem o campo obrigatorio. Resposta: [Erro] Erro ao salvar enquete",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:22:22.547Z"
+  },
+  "C39-CT03": {
+    "status": "passou",
+    "obs": "Filtro Status=Ativo retornou 36 enquete(s), todas ativas.",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:22:27.205Z"
+  },
+  "C34-CT01": {
+    "status": "falhou",
+    "obs": "Fornecedor nao apareceu na lista apos salvar. Resposta: [Erro] Erro ao salvar fornecedor. (error) | API: 500 salvar-fornecedor/1: Erro interno inesperado. | Requisicoes: POST salvar-fornecedor/1 500 {\"verifica_erro\":true,\"mensagem\":\"Erro interno inesperado.\"}",
+    "link": "https://jam.dev/c/3cbd0857-281b-41c8-999e-3818078ab2da",
+    "seco": false,
+    "quando": "2026-11-19T19:18:58.738Z"
+  },
+  "C34-CT02": {
+    "status": "passou",
+    "obs": "Validacao exibida: [Aviso] Informe o nome do fornecedor.. Fornecedor sem nome nao foi salvo.",
+    "link": "https://jam.dev/c/de013737-853a-483a-8c06-f75a16bac1a7",
+    "seco": false,
+    "quando": "2026-11-19T19:19:20.928Z"
+  },
+  "C34-CT03": {
+    "status": "falhou",
+    "obs": "Validacao exibida: [Erro] Erro ao salvar fornecedor.. Fornecedor com CNPJ inválido nao foi salvo. Porem o servidor respondeu erro interno (500 salvar-fornecedor/1: Erro interno inesperado.) em vez de uma validacao.",
+    "link": "https://jam.dev/c/a9bf3cee-1c4b-4885-af38-600d78a785d6",
+    "seco": false,
+    "quando": "2026-11-19T19:19:50.635Z"
+  },
+  "C34-CT04": {
+    "status": "inconclusivo",
+    "obs": "Nao executado: o fornecedor de teste nao pode ser criado (cadastro retorna erro 500, ver C34-CT01) e editar um fornecedor existente alteraria dados de outros alunos.",
+    "link": null,
+    "seco": false,
+    "quando": "2026-11-19T19:19:52.467Z"
+  },
+  "C33-CT01": {
+    "status": "passou",
+    "obs": "Funcao \"QA14555 Funcao\" aparece na lista. Resposta: nenhuma Obs.: a tela nao tem botao de excluir; a funcao de teste fica no ambiente.",
+    "link": "https://jam.dev/c/5d5d96da-6949-4a21-976d-31169c5b8021",
+    "seco": false,
+    "quando": "2026-11-19T19:17:12.988Z"
+  },
+  "C33-CT02": {
+    "status": "passou",
+    "obs": "Marcadas 3 permissoes de 109; ao reabrir 3 continuam marcadas. Resposta: nenhuma",
+    "link": "https://jam.dev/c/a5fe57e1-1856-4cd7-832f-70f0d26144b7",
+    "seco": false,
+    "quando": "2026-11-19T19:17:54.381Z"
+  },
+  "C33-CT03": {
+    "status": "passou",
+    "obs": "Validacao exibida: (validacao nativa) Preencha este campo.. Funcao sem nome nao foi salvo. (a documentacao espera: nome)",
+    "link": "https://jam.dev/c/24d592a9-d82b-4dc5-a071-7c7f2e5a9e63",
+    "seco": false,
+    "quando": "2026-11-19T19:18:23.475Z"
+  },
+  "C42-CT01": {
+    "status": "passou",
+    "obs": "Categoria \"QA14555 Categoria\" aparece na lista. Resposta: nenhuma",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:34:29.798Z"
+  },
+  "C42-CT02": {
+    "status": "passou",
+    "obs": "Nome alterado para \"QA14555 Categoria Editada\" e a alteracao persistiu na lista. Resposta: nenhuma",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:34:49.885Z"
+  },
+  "C42-CT03": {
+    "status": "passou",
+    "obs": "Registro removido da lista. Dialogos: [] Excluir a categoria \"QA14555 Categoria Editada\"? (confirm)",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:35:04.506Z"
+  },
+  "C43-CT01": {
+    "status": "passou",
+    "obs": "Pergunta \"QA14555 Pergunta\" aparece na lista. Resposta: nenhuma",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:35:24.179Z"
+  },
+  "C43-CT02": {
+    "status": "falhou",
+    "obs": "Validacao exibida: [Erro] Erro ao salvar pergunta. Pergunta sem texto nao foi salvo. Porem o servidor respondeu erro interno (500 pergunta-anamnese/salvar/1: Erro interno inesperado.) em vez de uma validacao.",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:35:33.222Z"
+  },
+  "C43-CT03": {
+    "status": "passou",
+    "obs": "Registro removido da lista. Dialogos: [] Deseja deletar esta pergunta? (confirm)",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:35:46.739Z"
+  },
+  "C44-CT01": {
+    "status": "passou",
+    "obs": "A central lista \"Automações ativas\" e \"Automações disponíveis\".",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:51:50.894Z"
+  },
+  "C44-CT02": {
+    "status": "passou",
+    "obs": "Apos \"Configurar\": abriu uma janela. Titulos visiveis: Inteligência & Automação / Central de Automações / Automações ativas. Nada foi salvo.",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:52:50.863Z"
+  },
+  "C44-CT03": {
+    "status": "falhou",
+    "obs": "Em /inteligencia-automacao nao aparece: O que o Sifit identificou, Automações mais eficientes.",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:52:59.506Z"
+  },
+  "C44-CT04": {
+    "status": "passou",
+    "obs": "Botao \"Últimos 30 dias\" ficou ativo (class=\"ri-filtro active\"). Resultados continuam exibidos: sim.",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:53:06.148Z"
+  },
+  "C45-CT01": {
+    "status": "passou",
+    "obs": "As 7 abas abrem e exibem campos (Home: 9; Biometria: 10; Avaliação: 4; Aniversário: 3; Pagamento: 2; Integrações: 4; Design: 2).",
+    "link": null,
+    "seco": true,
+    "quando": "2026-11-19T15:53:28.810Z"
+  },
+  "C45-CT02": {
+    "status": "erro",
+    "obs": "locator.inputValue: Timeout 30000ms exceeded.",
+    "quando": "2026-11-19T15:54:13.405Z"
+  },
+  "C45-CT03": {
+    "status": "erro",
+    "obs": "locator.selectOption: Timeout 30000ms exceeded.",
+    "quando": "2026-11-19T15:54:45.558Z"
+  },
+  "C47-CT01": {
+    "status": "erro",
+    "obs": "locator.click: Timeout 30000ms exceeded.",
+    "quando": "2026-11-19T15:55:18.061Z"
+  },
+  "C47-CT02": {
+    "status": "erro",
+    "obs": "locator.click: Timeout 30000ms exceeded.",
+    "quando": "2026-11-19T15:55:50.383Z"
+  },
+  "C47-CT03": {
+    "status": "erro",
+    "obs": "locator.click: Timeout 30000ms exceeded.",
+    "quando": "2026-11-19T15:56:29.230Z"
+  },
+  "C47-CT04": {
+    "status": "erro",
+    "obs": "locator.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.",
+    "quando": "2026-11-19T15:57:03.326Z"
+  }
+}
