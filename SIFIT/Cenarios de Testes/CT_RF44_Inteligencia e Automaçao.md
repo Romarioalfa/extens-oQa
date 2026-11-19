@@ -24,7 +24,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/ad49c5f7-49a0-4a1e-ab6f-fa07c99b2071) |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/ad49c5f7-49a0-4a1e-ab6f-fa07c99b2071) |
 
 ---
 
@@ -76,7 +76,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/ad49c5f7-49a0-4a1e-ab6f-fa07c99b2071) |
 
 ---
 
@@ -102,4 +102,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/ad49c5f7-49a0-4a1e-ab6f-fa07c99b2071) |
