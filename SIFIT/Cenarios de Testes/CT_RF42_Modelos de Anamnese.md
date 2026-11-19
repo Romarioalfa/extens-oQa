@@ -24,7 +24,7 @@
 
 | **Evidência** |
 | --- |
-| ![RF42-CT01_lista_modelos](../Evidencias/RF42-CT01_lista_modelos.png) |
+|  |
 
 ---
 
@@ -50,9 +50,7 @@
 
 | **Evidência** |
 | --- |
-| ![RF42-CT02_preview_modelo_demonstracao_vazio](../Evidencias/RF42-CT02_preview_modelo_demonstracao_vazio.png) |
-| ![RF42-CT02_preview_modelo_hendreu_vazio](../Evidencias/RF42-CT02_preview_modelo_hendreu_vazio.png) |
-| ![RF42-CT02_editor_modelo_com_1_pergunta](../Evidencias/RF42-CT02_editor_modelo_com_1_pergunta.png) |
+|  |
 
 ---
 

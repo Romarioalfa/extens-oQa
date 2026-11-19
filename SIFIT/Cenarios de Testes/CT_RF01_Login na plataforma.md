@@ -25,7 +25,6 @@
 | **Evidência** |
 | --- |
 | [Vídeo](https://jam.dev/c/2ae38cdd-22fa-4b1e-b12a-04c9f4131462) |
-| ![RF01-CT01](../Evidencias/RF01-CT01_login_pagina_inicial.png) |
 
 ---
 

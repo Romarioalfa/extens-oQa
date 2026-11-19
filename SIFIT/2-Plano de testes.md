@@ -148,7 +148,7 @@ Realizar a verificação manual dos requisitos funcionais do sistema SIFIT, vali
   * Título
   * Descrição
   * Passos para reproduzir
-  * Evidência (print ou vídeo gravado com a extensão Jam)
+  * Evidência (vídeo gravado com a extensão Jam)
   * Gravidade (Crítica, Alta, Média, Baixa)
 * Registro no arquivo `3-Relatorio de Bugs.md`.
 
@@ -160,7 +160,7 @@ Realizar a verificação manual dos requisitos funcionais do sistema SIFIT, vali
 | --- | --- | --- |
 | Sistema fora do ar ou instável | Alto | Tentar novamente após intervalo e registrar o horário da falha |
 | Ambiente compartilhado com a turma: outros alunos podem alterar ou excluir os mesmos registros | Alto | Criar dados de teste com identificação própria (prefixo com o RA) e confirmar o estado antes de cada execução |
-| Dados reais de clientes visíveis no ambiente | Alto | Não publicar prints ou vídeos que mostrem nome, CPF ou outros dados pessoais; ocultar antes de subir no GitHub |
+| Dados reais de clientes visíveis no ambiente | Alto | Não publicar vídeos que mostrem nome, CPF ou outros dados pessoais; ocultar antes de subir no GitHub |
 | Uso de uma única conta de acesso | Médio | Documentar essa limitação no escopo (não é possível validar perfis de permissão diferentes) |
 | Funcionalidades dependentes de serviços externos (Pagar.me) | Médio | Testar apenas o comportamento da tela e registrar o que não pôde ser validado |
 
@@ -171,6 +171,6 @@ Realizar a verificação manual dos requisitos funcionais do sistema SIFIT, vali
 * Análise de Requisitos (`1-Analise de requistos.md`)
 * Plano de Testes (este documento)
 * Casos de Teste (pasta `Cenarios de Testes`)
-* Evidências de Execução (prints e vídeos organizados por RF)
+* Evidências de Execução (vídeos organizados por RF)
 * Relatório de Bugs (`3-Relatorio de Bugs.md`)
 * Relatório Final de Execução (`4-Relatorio dos testes.md`)
