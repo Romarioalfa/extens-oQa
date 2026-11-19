@@ -23,7 +23,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/ce96a164-adb2-4820-a4b0-fba8de1444a2) |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/01862a7e-e58d-4156-a5c6-6ba91d580dee) |
 
 ---
 
@@ -77,7 +77,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/41a58fc7-6347-41ca-b7d2-67418fd1b01c) |
 
 ---
 
@@ -104,7 +104,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+|  [Vídeo](https://jam.dev/c/d9bb0f6e-da77-4371-90be-71c6053f0ea9)|
 
 ---
 
@@ -131,7 +131,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](https://jam.dev/c/bffc0077-3af0-4a1d-81a4-d345498e9ed5) |
 
 ---
 
@@ -157,4 +157,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+|  [Vídeo](https://jam.dev/c/b6c96e9a-ed1f-46fa-acc4-218fd4257a41)|
