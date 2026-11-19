@@ -77,5 +77,5 @@
 
 | **Evidência** |
 | --- |
-| ![RF39-CT03_filtro_status_inativo](../Evidencias/RF39-CT03_filtro_status_inativo.png) |
+|  |
 

@@ -44,8 +44,7 @@
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
-| ![BUG-001](Evidencias/RF04-CT04_filtros_clientes_ignorados.png) |
-| ![BUG-001](Evidencias/RF04-CT04_status_inativo_com_filtro_ativo.png) |
+| _Vídeo (Jam) a anexar_ |
 
 ---
 
@@ -82,7 +81,7 @@
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
-| ![BUG-002](Evidencias/RF04-CT03_graficos_movimento_vazios.png) |
+| _Vídeo (Jam) a anexar_ |
 
 ---
 
@@ -121,8 +120,7 @@
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
-| ![BUG-003](Evidencias/BUG-003_card_17_inativos.png) |
-| ![BUG-003](Evidencias/BUG-003_modal_0_inativos.png) |
+| _Vídeo (Jam) a anexar_ |
 
 
 ---
@@ -163,9 +161,7 @@
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
-| ![BUG-004](Evidencias/RF42-CT02_preview_modelo_hendreu_vazio.png) |
-| ![BUG-004](Evidencias/RF42-CT02_preview_modelo_demonstracao_vazio.png) |
-| ![BUG-004](Evidencias/RF42-CT02_editor_modelo_com_1_pergunta.png) |
+| _Vídeo (Jam) a anexar_ |
 
 ---
 
@@ -203,4 +199,4 @@
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
-| ![BUG-005](Evidencias/BUG-005_senha_biometria_texto_puro.png) |
+| _Vídeo (Jam) a anexar_ |

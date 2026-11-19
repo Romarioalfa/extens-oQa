@@ -109,4 +109,4 @@
 * ✔️ [Plano de Testes](2-Plano%20de%20testes.md)
 * ✔️ [Casos de Teste](Cenarios%20de%20Testes/)
 * 🐛 [Relatório de Bugs](3-Relatorio%20de%20Bugs.md)
-* 🖼️ [Evidências (prints)](Evidencias/)
+* 🎥 Evidências: vídeos gravados com a extensão Jam, linkados em cada caso de teste e em cada bug

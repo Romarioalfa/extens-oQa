@@ -24,7 +24,6 @@
 | **Evidência** |
 | --- |
 |  [Vídeo](https://jam.dev/c/c54eab39-4f34-4cd6-89f6-14815b935de2)|
-| ![RF04-CT01](../Evidencias/RF04-CT01_cards_pagina_inicial.png) |
 
 ---
 
@@ -52,7 +51,6 @@
 | **Evidência** |
 | --- |
 | [Vídeo](https://jam.dev/c/f7334652-27ab-4320-8818-db363019c86a)  |
-| ![RF04-CT02](../Evidencias/RF04-CT02_periodo_01-09_a_30-09.png) |
 
 ---
 
@@ -79,7 +77,6 @@
 | **Evidência** |
 | --- |
 |  [Vídeo](https://jam.dev/c/55149e7b-5dca-40a6-87ac-e10a3e415460) |
-| ![RF04-CT03](../Evidencias/RF04-CT03_graficos_movimento_vazios.png) |
 
 ---
 
@@ -107,5 +104,3 @@
 | **Evidência** |
 | --- |
 |   [Vídeo](https://jam.dev/c/2f20321c-b8b2-49a4-972b-1be774ce4746) |
-| ![RF04-CT04](../Evidencias/RF04-CT04_filtros_clientes_ignorados.png) |
-| ![RF04-CT04](../Evidencias/RF04-CT04_status_inativo_com_filtro_ativo.png) |

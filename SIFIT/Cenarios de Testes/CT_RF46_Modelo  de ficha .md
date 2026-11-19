@@ -78,5 +78,4 @@
 
 | **Evidência** |
 | --- |
-| ![RF46-CT03_lista_modelos_ficha_vazia](../Evidencias/RF46-CT03_lista_modelos_ficha_vazia.png) |
-| ![RF46-CT03_busca_sem_resultado](../Evidencias/RF46-CT03_busca_sem_resultado.png) |
+|  |
