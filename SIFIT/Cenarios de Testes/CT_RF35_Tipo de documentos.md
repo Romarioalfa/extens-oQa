@@ -23,7 +23,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](../Evidencias/C35-CT01.mp4) · [Jam](https://jam.dev/c/796e71f5-43b0-4e35-bfff-896b331a8db5) |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](../Evidencias/C35-CT02.mp4) · [Jam](https://jam.dev/c/fe76a00b-7c69-4880-985a-f5bd3f8bc89d) |
 
 ---
 
@@ -76,4 +76,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](../Evidencias/C35-CT03.mp4) · [Jam](https://jam.dev/c/0f6db349-ca5e-4c3c-9fcc-a2dc4b2e291c) |

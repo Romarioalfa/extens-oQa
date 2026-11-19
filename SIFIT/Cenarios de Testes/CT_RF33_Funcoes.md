@@ -24,7 +24,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](../Evidencias/C33-CT01.mp4) · [Jam](https://jam.dev/c/5d5d96da-6949-4a21-976d-31169c5b8021) |
 
 ---
 
@@ -51,7 +51,7 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](../Evidencias/C33-CT02.mp4) · [Jam](https://jam.dev/c/a5fe57e1-1856-4cd7-832f-70f0d26144b7) |
 
 ---
 
@@ -78,4 +78,4 @@
 
 | **Evidência** |
 | --- |
-|  |
+| [Vídeo](../Evidencias/C33-CT03.mp4) · [Jam](https://jam.dev/c/24d592a9-d82b-4dc5-a071-7c7f2e5a9e63) |

@@ -1,0 +1,7 @@
+node_modules/
+perfil/
+jam-ext/
+*.png
+backup*/
+.playwright-mcp/
+sonda*.js
