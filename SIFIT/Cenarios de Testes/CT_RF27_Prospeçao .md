@@ -24,7 +24,7 @@
 
 | **Evidência** |
 | --- |
-| [Vídeo](https://jam.dev/c/bc42bc2d-ec8a-40d5-aca8-ac712421a689) |
+| [Vídeo](../Evidencias/C27-CT01.mp4) · [Jam](https://jam.dev/c/bc42bc2d-ec8a-40d5-aca8-ac712421a689) |
 
 ---
 
@@ -51,7 +51,7 @@
 
 | **Evidência** |
 | --- |
-| [Vídeo](https://jam.dev/c/fb6125db-a9a4-46a7-991e-138e1d4eda4b) |
+| [Vídeo](../Evidencias/C27-CT02.mp4) · [Jam](https://jam.dev/c/fb6125db-a9a4-46a7-991e-138e1d4eda4b) |
 
 ---
 
@@ -77,7 +77,7 @@
 
 | **Evidência** |
 | --- |
-| [Vídeo](https://jam.dev/c/5e1858ac-cb6d-4458-9e33-89dbd4406ae5) |
+| [Vídeo](../Evidencias/C27-CT03.mp4) · [Jam](https://jam.dev/c/5e1858ac-cb6d-4458-9e33-89dbd4406ae5) |
 
 ---
 
@@ -103,4 +103,4 @@
 
 | **Evidência** |
 | --- |
-| [Vídeo](https://jam.dev/c/0df181a0-027f-4bd0-9eca-6a6eafd8f3e8) |
+| [Vídeo](../Evidencias/C27-CT04.mp4) · [Jam](https://jam.dev/c/0df181a0-027f-4bd0-9eca-6a6eafd8f3e8) |

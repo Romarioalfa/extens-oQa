@@ -64,7 +64,7 @@ Os bugs BUG-001 a BUG-005 do relatório continuam com "vídeo a anexar".
 
 ## 9. Fechamento (quando os RFs terminarem ou o usuário pedir)
 1. Atualizar `../3-Relatorio de Bugs.md` (bugs novos com link do Jam) e `../4-Relatorio dos testes.md` (totais de casos, cobertura por módulo, resumo de bugs, nota de execução).
-2. Decidir com o usuário: manter só links do Jam ou baixar `.mp4` para `../Evidencias/` (`node baixar_videos.js`, `node checar_videos.js`; o Jam não oferece download, o script junta os trechos do HLS).
+2. Vídeos como arquivo: os 21 casos gravados até aqui já têm `.mp4` em `../Evidencias/<ID>.mp4` e os `.md` apontam para eles com o link do Jam ao lado. Para os novos: `node baixar_videos.js <IDs>` (só os IDs de RF27 a RF47; o Jam não oferece download, o script junta os trechos do HLS; precisa do `abrir.js` rodando), `node checar_videos.js` (confere se tocam) e `node vincular_videos.js` (atualiza os `.md`, sem dependências). Prints não fazem parte da evidência.
 3. Commitar na branch `evidencias`, autor 1b24, mensagem em português, terminando com a linha `Co-Authored-By` do modelo usado. Sem push sem pedir.
 
 ## 10. Modelo e esforço sugeridos
