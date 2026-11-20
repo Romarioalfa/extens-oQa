@@ -2,7 +2,7 @@
 
 **Software:** SIFIT - Sistema para Academias
 
-**QA responsável:** Romário Rodrigues RA 14555
+**QAs responsáveis:** Romário Rodrigues Rocha (RA 14555), Andrei Matos Costa (RA 14564), João Victor Cintra Cruz (RA 14591), Heitor dos Santos Correa (RA 14625) e Geovane Quinhone (RA 14511)
 
 **Data:** 17.11.26 (atualizado em 19.11.26)
 

@@ -27,6 +27,16 @@ Este projeto foi criado com o objetivo de:
 * 4 - Relatório dos Testes
 * Cenários de Testes (47 cenários e 175 casos de teste)
 
+## Integrantes
+
+| Nome | RA |
+| ---- | -- |
+| Romário Rodrigues Rocha | 14555 |
+| Andrei Matos Costa | 14564 |
+| João Victor Cintra Cruz | 14591 |
+| Heitor dos Santos Correa | 14625 |
+| Geovane Quinhone | 14511 |
+
 ##  Metodologia
 
 * **Técnicas aplicadas:** Testes Positivos, Negativos, Exploratório e Funcional

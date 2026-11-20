@@ -1,5 +1,13 @@
 #  **Relatório Final de Execução de Testes - SIFIT**
 
+**Sistema testado:** SIFIT - Sistema para Academias
+
+**Responsáveis:** Romário Rodrigues Rocha (RA 14555), Andrei Matos Costa (RA 14564), João Victor Cintra Cruz (RA 14591), Heitor dos Santos Correa (RA 14625) e Geovane Quinhone (RA 14511)
+
+**Data de execução:** 17/11/2026 a 19/11/2026
+
+**Ambiente:** https://sifit.centrion.com.br
+
 
 * Sistema operacional: Windows
 * Navegador: Chrome 157

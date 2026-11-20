@@ -7,7 +7,7 @@
 * **Ambiente de Testes**: [https://sifit.centrion.com.br](https://sifit.centrion.com.br)
 * **Tipo de Teste**: Teste Funcional Manual
 * **Data do Documento**: 17/11/2026
-* **Responsável**: Romário Rodrigues RA 14555
+* **Responsáveis**: Romário Rodrigues Rocha (RA 14555), Andrei Matos Costa (RA 14564), João Victor Cintra Cruz (RA 14591), Heitor dos Santos Correa (RA 14625) e Geovane Quinhone (RA 14511)
 
 ---
 
