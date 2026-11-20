@@ -1,15 +1,41 @@
-#🧪 Testes-Manuais
 
-Repositório dedicado ao estudo, prática e documentação de testes manuais de software, com foco em:
+# 🧪 Teste-Manuais - SIFIT
 
-Aprendizado de QA Organização de casos de teste Melhoria contínua na análise e cobertura de testes 🎯 Objetivo Este projeto foi criado com o objetivo de:
+Repositório com a documentação de testes manuais do sistema SIFIT, feito para a Extensão de Qualidade de Software.
 
-Consolidar conhecimentos de testes manuais Simular testes em sistemas reais e ambientes públicos Criar um portfólio técnico bem estruturado para futuras oportunidades profissionais 🧱 Estrutura do repositório A estrutura está organizada por pastas, cada uma representando um sistema/teste diferente:
+Foco em
 
-📁 OrangeHRM ↳ Casos de Teste, Cenários, Relatórios de Bug e Evidências
+* Aprendizado de QA
+* Organização de casos de t este
+* Análise e cobertura de testes
 
-🧪 Metodologia Técnicas aplicadas: Testes Positivos, Negativos, Exploratório, Funcional Ferramentas: Markdown, GitHub. Formatos: BDD (Gherkin), Tabelas e Checklist Processos: Planejamento de Teste, Execução e Relatório
+##  Objetivo
 
-📌 Status do Projeto ✅ Ativo e em constante evolução 📋 Feedbacks são bem-vindos!
+Este projeto foi criado com o objetivo de:
 
-🚀 Sites interessantes para prática OrangeHRM Demo (https://opensource-demo.orangehrmlive.com)
+* Aplicar na praática os conhecimentos de testes manuais
+* Testar um sistema real usado por acaademias
+* Montar um portfólio de QA
+
+##  Estrutura do repositório
+
+ **SIFIT**
+
+* 1 - Análise de Requisitos (47 requisitos)
+* 2 - Plano de Testes
+* 3 - Relatório de Bugs
+* 4 - Relatório dos Testes
+* Cenários de Testes (47 cenários e 175 casos de teste)
+
+##  Metodologia
+
+* **Técnicas aplicadas:** Testes Positivos, Negativos, Exploratório e Funcional
+* **Ferramentas:** Google Chrome, Jam, Markdown e GitHub
+* **Formatos:** BDD (Gherkin) e Tabelas
+* **Processos:** Análise de Requisitos, Planejamento de Teste, Execução e Relatório
+
+
+
+##  Sistema testado
+
+SIFIT - Sistema para Academias (https://sifit.centrion.com.br)
